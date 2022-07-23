@@ -1,0 +1,13 @@
+Mission usage:
+These are custom-made files.
+Include the contents of the desired sets with your mission's .fpk and .fpkd. 
+Include the contents of the _fpk folders with your mission's _fpk and the contents of the _fpkd folders with your mission's _fpkd.
+
+The "common" folder's "soldier" DataSet will define the enemy soldier GameObject, with a maxed out totalCount of 360, expecting the location's default .parts to already be loaded.
+
+The "enemy" folder contains enemy soldier GameObjectLocators from free roam and missions.
+The enemy folder's "large" folder contains enemy soldier GameObjectLocators from large outposts.
+The enemy folder's "lrrp" folder contains enemy soldier GameObjectLocators from LRRP patrols, free roam and missions included.
+The enemy folder's "outerBase" folder contains enemy soldier GameObjectLocators from observation posts.
+
+The "heli" folder contains DataSets with a Landing Zone locator, which relies to approach and return routes.

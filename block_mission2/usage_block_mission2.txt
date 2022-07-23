@@ -1,0 +1,18 @@
+Mission usage:
+Include the contents of the desired sets with your mission's .fpk and .fpkd. 
+Include the contents of the _fpk folders with your mission's _fpk and the contents of the _fpkd folders with your mission's _fpkd.
+
+The common folder's "corpse" DataSet will define the enemy soldier corpse GameObject, expecting the location's default .parts to already be loaded, and 8 GameObjectLocators.
+The common folder's "reinforce" DataSet will define the reinforce block ScriptBlockData, a vehicle GameObjectLocator, a driver and four more extra enemy soldier GameObjectLocators.
+
+You can remove DataSets as you please, but the _fpk's .frl and the .fpkd's .frld, the rail and rail data files, must be included together or not included at all.
+Their parallel in-.fpk and in-.fpkd paths not matching or only one of them existing will lead to an infinite loading screen on restart from checkpoint.
+
+"combat" .trap files in .fpks usually contain trigger traps related to combat locators.
+
+There still exist "animal" DataSets, but they're always empty, meaning they've become depricated.
+The "combat" DataSets contain guard targets, their aim point locators, combat locators, combat locator sets, and sometimes, combat locator GeoTraps.
+The "item" DataSets contain GameObjectLocators of pickable and placed items, such as ammo, weapons, and mines.
+The "route" DataSets contain the GameObjectLocator of the command post.
+The "trap" DataSets contain various GeoTraps, such as the checkpoint rings around an outpost, minefields, or the intel telop GeoTraps.
+The "quiet" DataSets contain snipe point locators for the buddy Quiet.

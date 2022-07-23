@@ -1,0 +1,8 @@
+Mission usage:
+Combine the desired .frt files into or with your mission's .frt file with Route Builder or RouteSetTool. Include the resulting one .frt in your mission's .fpk.
+
+The "heli" folder contains helicopter routes. Its "drp" folder contains helicopter drop routes. The "lzs" folder will contain LZs' approach and return route pairs.
+The "large" folder contains enemy soldier routes for large outposts.
+The "lrrp" folder contains enemy soldier routes for LRRP roads and paths between outposts and observation posts.
+The "outerBase" folder contains enemy soldier routes for observation posts.
+The "rat" folder contains rat routes for outposts.
