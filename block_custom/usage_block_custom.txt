@@ -3,7 +3,14 @@ These are custom-made files.
 Include the contents of the desired sets with your mission's .fpk and .fpkd. 
 Include the contents of the _fpk folders with your mission's _fpk and the contents of the _fpkd folders with your mission's _fpkd.
 
+The "_cmn" folder contains common assets that aren't tied to a specifc location.
+The _cmn folder's "radio" files will define the TppEspionageRadioSystem GameObject, and load the common .rdf files.
+The _cmn folder's "intel" files define the intel file reading demo variations. The demo variation is decided by a bool in the argument table of TppDemo.PlayGetIntelDemo.
+
 The "common" folder's "soldier" DataSet will define the enemy soldier GameObject, with a maxed out totalCount of 360, expecting the location's default .parts to already be loaded.
+The common folder's "player" DataSets will define the GameObject for the player and a GameObjectLocator for the player on the location's free roam coordinates.
+The common folder's "heli" DataSet will define the GameObject and GameObjectLocator of the support helicopter, and include the required .fv2 file in the .fpk.
+The common folder's "sound" files will load the location's free roam sound and subtitle files.
 
 The "enemy" folder contains enemy soldier GameObjectLocators from free roam and missions.
 The enemy folder's "large" folder contains enemy soldier GameObjectLocators from large outposts.
