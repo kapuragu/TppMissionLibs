@@ -12,7 +12,7 @@ veh_bd_west_trc + veh_at_west_trc_crg_container
 veh_bd_west_trc + veh_at_west_trc_crg_itembox
 	TppPackList.AddMissionPack(TppDefine.MISSION_COMMON_PACK.WEST_TRUCK) --/Assets/tpp/pack/mission2/common/veh_mc_west_trc.fpk
     TppPackList.AddMissionPack(TppDefine.MISSION_COMMON_PACK.WEST_TRUCK_ITEMBOX) --/Assets/tpp/pack/mission2/common/veh_mc_west_trc_crg_itembox.fpk
-veh_bd_west_trc + veh_at_west_trc_crg_hood
+veh_bd_west_trc + veh_at_west_trc_hood
 	TppPackList.AddMissionPack(TppDefine.MISSION_COMMON_PACK.WEST_TRUCK) --/Assets/tpp/pack/mission2/common/veh_mc_west_trc.fpk
     TppPackList.AddMissionPack(TppDefine.MISSION_COMMON_PACK.WEST_TRUCK_HOOD) --/Assets/tpp/pack/mission2/common/veh_mc_west_trc_hood.fpk
 
