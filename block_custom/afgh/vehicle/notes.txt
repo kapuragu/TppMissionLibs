@@ -1,0 +1,26 @@
+veh_bd_east_lv
+	TppPackList.AddMissionPack(TppDefine.MISSION_COMMON_PACK.EAST_LV) --/Assets/tpp/pack/mission2/common/veh_mc_east_lv.fpk
+	
+veh_bd_east_trc
+	TppPackList.AddMissionPack(TppDefine.MISSION_COMMON_PACK.EAST_TRUCK) --/Assets/tpp/pack/mission2/common/veh_mc_east_trc.fpk
+veh_bd_east_trc + veh_at_east_trc_crg_ammunition
+	TppPackList.AddMissionPack(TppDefine.MISSION_COMMON_PACK.EAST_TRUCK) --/Assets/tpp/pack/mission2/common/veh_mc_east_trc.fpk
+    TppPackList.AddMissionPack(TppDefine.MISSION_COMMON_PACK.EAST_TRUCK_AMMUNITION) --/Assets/tpp/pack/mission2/common/veh_mc_east_trc_crg_ammunition.fpk
+veh_bd_east_trc + veh_at_east_trc_crg_drum
+	TppPackList.AddMissionPack(TppDefine.MISSION_COMMON_PACK.EAST_TRUCK) --/Assets/tpp/pack/mission2/common/veh_mc_east_trc.fpk
+    TppPackList.AddMissionPack(TppDefine.MISSION_COMMON_PACK.EAST_TRUCK_DRUM) --/Assets/tpp/pack/mission2/common/veh_mc_east_trc_crg_drum.fpk
+veh_bd_east_trc + veh_at_east_trc_crg_generator
+	TppPackList.AddMissionPack(TppDefine.MISSION_COMMON_PACK.EAST_TRUCK) --/Assets/tpp/pack/mission2/common/veh_mc_east_trc.fpk
+    TppPackList.AddMissionPack(TppDefine.MISSION_COMMON_PACK.EAST_TRUCK_GENERATOR) --/Assets/tpp/pack/mission2/common/veh_mc_east_trc_crg_generator.fpk
+veh_bd_east_trc + veh_at_east_trc_crg_material
+	TppPackList.AddMissionPack(TppDefine.MISSION_COMMON_PACK.EAST_TRUCK) --/Assets/tpp/pack/mission2/common/veh_mc_east_trc.fpk
+    TppPackList.AddMissionPack(TppDefine.MISSION_COMMON_PACK.EAST_TRUCK_MATERIAL) --/Assets/tpp/pack/mission2/common/veh_mc_east_trc_crg_material.fpk
+
+veh_bd_east_wav
+	TppPackList.AddMissionPack(TppDefine.MISSION_COMMON_PACK.EAST_WAV) --/Assets/tpp/pack/mission2/common/veh_mc_east_wav.fpk
+veh_bd_east_wav + veh_at_east_wav_rocket
+	TppPackList.AddMissionPack(TppDefine.MISSION_COMMON_PACK.EAST_WAV) --/Assets/tpp/pack/mission2/common/veh_mc_east_wav.fpk
+	TppPackList.AddMissionPack(TppDefine.MISSION_COMMON_PACK.EAST_WAV_ROCKET) --/Assets/tpp/pack/mission2/common/veh_mc_east_wav_rocket.fpk
+	
+veh_bd_east_tnk
+	TppPackList.AddMissionPack(TppDefine.MISSION_COMMON_PACK.EAST_TANK) --/Assets/tpp/pack/mission2/common/veh_mc_east_tnk.fpk

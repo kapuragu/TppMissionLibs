@@ -1,0 +1,27 @@
+veh_bd_west_lv
+	TppPackList.AddMissionPack(TppDefine.MISSION_COMMON_PACK.WEST_LV) --/Assets/tpp/pack/mission2/common/veh_mc_west_lv.fpk
+	
+veh_bd_west_trc
+	TppPackList.AddMissionPack(TppDefine.MISSION_COMMON_PACK.WEST_TRUCK) --/Assets/tpp/pack/mission2/common/veh_mc_west_trc.fpk
+veh_bd_west_trc + veh_at_west_trc_crg_cistern
+	TppPackList.AddMissionPack(TppDefine.MISSION_COMMON_PACK.WEST_TRUCK) --/Assets/tpp/pack/mission2/common/veh_mc_west_trc.fpk
+    TppPackList.AddMissionPack(TppDefine.MISSION_COMMON_PACK.WEST_TRUCK_CISTERN) --/Assets/tpp/pack/mission2/common/veh_mc_west_trc_crg_cistern.fpk
+veh_bd_west_trc + veh_at_west_trc_crg_container
+	TppPackList.AddMissionPack(TppDefine.MISSION_COMMON_PACK.WEST_TRUCK) --/Assets/tpp/pack/mission2/common/veh_mc_west_trc.fpk
+    TppPackList.AddMissionPack(TppDefine.MISSION_COMMON_PACK.WEST_TRUCK_CONTAINER) --/Assets/tpp/pack/mission2/common/veh_mc_west_trc_crg_container.fpk
+veh_bd_west_trc + veh_at_west_trc_crg_itembox
+	TppPackList.AddMissionPack(TppDefine.MISSION_COMMON_PACK.WEST_TRUCK) --/Assets/tpp/pack/mission2/common/veh_mc_west_trc.fpk
+    TppPackList.AddMissionPack(TppDefine.MISSION_COMMON_PACK.WEST_TRUCK_ITEMBOX) --/Assets/tpp/pack/mission2/common/veh_mc_west_trc_crg_itembox.fpk
+veh_bd_west_trc + veh_at_west_trc_crg_hood
+	TppPackList.AddMissionPack(TppDefine.MISSION_COMMON_PACK.WEST_TRUCK) --/Assets/tpp/pack/mission2/common/veh_mc_west_trc.fpk
+    TppPackList.AddMissionPack(TppDefine.MISSION_COMMON_PACK.WEST_TRUCK_HOOD) --/Assets/tpp/pack/mission2/common/veh_mc_west_trc_hood.fpk
+
+veh_bd_west_wav + veh_at_west_wav_cannon
+	TppPackList.AddMissionPack(TppDefine.MISSION_COMMON_PACK.WEST_WAV) --/Assets/tpp/pack/mission2/common/veh_mc_west_wav.fpk
+	TppPackList.AddMissionPack(TppDefine.MISSION_COMMON_PACK.WEST_WAV_CANNON) --/Assets/tpp/pack/mission2/common/veh_mc_west_wav_trt_cannon.fpk
+veh_bd_west_wav + veh_at_west_wav_machinegun
+	TppPackList.AddMissionPack(TppDefine.MISSION_COMMON_PACK.WEST_WAV) --/Assets/tpp/pack/mission2/common/veh_mc_west_wav.fpk
+	TppPackList.AddMissionPack(TppDefine.MISSION_COMMON_PACK.WEST_WAV_MACHINE_GUN) --/Assets/tpp/pack/mission2/common/veh_mc_west_wav_trt_machinegun.fpk
+	
+veh_bd_west_tnk
+	TppPackList.AddMissionPack(TppDefine.MISSION_COMMON_PACK.WEST_TANK) --/Assets/tpp/pack/mission2/common/veh_mc_west_tnk.fpk
