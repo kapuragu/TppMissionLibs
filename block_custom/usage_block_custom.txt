@@ -16,7 +16,7 @@ The _cmn folder's "orderbox" DataSet will define the order box block. Meant for 
 The _cmn folder's "vehicle" DataSet will define the TppVehicle2 GameObject with the totalCount of 22 and realizedCount of 4. The definition of the GameObject is important for the player's vehicle.
 
 The "afgh" folder will contain files related specifically for Afghanistan missions, and the "mafr" folder will contain files related specifically to Central Africa missions.
-The "common" folder's "soldier" DataSet will define the enemy soldier GameObject, with a maxed out totalCount of 360, expecting the location's default .parts to already be loaded.
+The "common" folder's "soldier" DataSet will define the enemy soldier GameObject, with a totalCount of 160, the default soldier state count in TppDefine, and expecting the location's default .parts to already be loaded.
 The common folder's "player" DataSets will define the GameObject for the player and a GameObjectLocator for the player on the location's free roam coordinates.
 The common folder's "heli" DataSet will define the GameObject and GameObjectLocator of the support helicopter, and include the required .fv2 file in the .fpk.
 The common folder's "sound" files will load the location's free roam sound and subtitle files.
